@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MAKS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="MD Abdul Kader Shohag">
+    <meta name="description" content="Assistant Professor, Writer & Social Worker">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="icon" href="photos/icon.jpg">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Righteous&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+<style type="text/css">
+  .about {
+    background: #F4F6F7;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.pic{
+    width:35%;
+    float:left;
+}
+.pic img {
+    width:75%;
+    border-radius: 8px;
+}
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.intro{
+    width:55%;
+    float:left;
+}
+.intro h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color:#000;
+    font-size:30px;
+    padding:5px;
+    line-height: 0;
+}
+.intro h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color:#000;
+    font-size:20px;
+    padding:5px;
+}
+
+.whoami {
+    color:#000;
+    font-size:20px;
+    text-align:justify;
+    padding:10px;
+    font-family:'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+.maks {
+    color:red;
+    font-weight: bold;
+}
+.introlinks {
+    color:#000;
+    font-size:17px;
+    text-align:justify;
+    padding:10px;
+    font-family:'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+.slinks{
+    font-weight: bold;
+}
+button {
+  background-color:#ff0000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+  font-family:Comfortaa, sans-serif;
+}
+button:hover{background:#000}
+.footer{background:#000;}
+.footer p {color:#fff;padding:10px;font-size:15px;}
+
+.fb{background:#fff;color:#000;border-radius:70%;font-weight:bold;font-family:comfortaa;font-size:20px}
+.fb:hover{background:#000;color:#fff}
+
+.book1{
+    width:50%;
+    float:left;
+    padding:20px;
+}
+
+.book2{
+    width:50%;
+    float:right;
+    padding:20px;
+}
+.book1 p, .book2 p{text-align:justify;}
+
+@media screen and (max-width: 600px) {
+    
+  .pic{
+    width:100%;
+    float:left;
+  }
+  .pic img {
+      width:75%;
+      border-radius: 8px;
+  }
+   .intro{
+    width:100%;
+    float:left;
+  }
+  .intro h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color:#000;
+    font-size:30px;
+    padding:20px;
+    line-height: 0;
+  }
+  .intro h3 {
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 500;
+      color:#000;
+      font-size:20px;
+      padding-left:20px;
+  }
+  .whoami {
+    color:#000;
+    font-size:20px;
+    text-align:justify;
+    padding:20px;
+    font-family:'Ubuntu', sans-serif;
+    font-weight: 300;
+  }
+  .introlinks {
+    color:#000;
+    font-size:17px;
+    text-align:justify;
+    padding:20px;
+    font-family:'Ubuntu', sans-serif;
+    font-weight: 300;
+  }
+  .book1{
+    width:100%;
+    float:left;
+    padding-left:20px;
+    padding-top:20px;
+    padding-right:20px;
+    padding-bottom:0;
+    }
+
+    .book2{
+    width:100%;
+    float:left;
+    padding-left:20;
+    padding-top:0;
+    padding-right:20px;
+    padding-bottom:20px;
+    }
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href="">MAKS</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#intro">About</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#resume">Resume</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#gallery">Gallery</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#books">Books</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="headercontainer">
+  <img src="photos/header.jpg" alt="Nature" style="width:100%;">
+  <div class="headertext-block">
+    <h4>Md Abdul Kader Shohag</h4>
+    <p>Assistant Professor, Writer & Social Worker</p>
+  </div>
+</div>
+<span id="intro"></span>
+<div class="about template clear" id="about">    <div class="pic" id="pic">        <img class="centerimg" src="photos/profile.jpg"/>    </div>    <div class="intro">        <h2 style="color:red;font-weight:bold;padding:5px">About me</h2>        <h3>30th BCS, General Education</h3>        <p class="whoami">Hi there! I am Md Abdul Kader Shohag aka <span class="maks">MAKS</span>. I am currently working as an Assistant Professor in the Department of Chemistry at Govt. Haraganga College.        </p>        <p class="introlinks">            <span class="slinks">Website: </span> tahsintushar.xyz/makshohag <br>            <span class="slinks">Mail: </span> maks_duch@yahoo.com <br>            <span class="slinks">Call: </span> +8801913-636608 <br>            <a href="tel:+8801913636608"><button class=""><i class="fa fa-phone" style="font-size:18px"></i> Click to call</button></a>            <a href=""><button>Send Message</button></a>        </p>    </div></div>
+<div class="books template clear" id="books">
+    <h2 style="color:red;font-weight:bold;text-align:center">My books</h2><br>
+    <div class="book1">
+        <div class="aspirin">
+            <span class="maks">ASPIRIN</span><br>
+            <p>For Medical, Engineering universities, Dhaka university and all the other universities admission exams</p>
+        </div>
+        <div class="orbit">
+            <span class="maks">ORBIT</span><br>
+            <p>Chemistry question solution book for Dhaka University and all the other universities admission exams</p>
+        </div>
+    </div>
+    <div class="book2">
+        <div class="benzene">
+            <span class="maks">BENZENE</span><br>
+            <p>Especially for organic chemistry for Medical, Engineering universities, Dhaka university and all the other universities admission exams</p>
+        </div>
+        <div class="rdx">
+            <span class="maks">RDX Chemistry suggestion</span><br>
+            <p>For Medical, Dhaka university and all the other universities admission exams</p>
+        </div>
+    </div>
+</div>
+<div class="education template clear" id="resume">
+  <h2 class="myresume maks">My Resume</h2><br>
+  <div class="timeline">
+  <div class="timelinecontainer left">
+    <div class="content">
+      <h2 class="degree">LLB</h2>
+      <p class="institute">National University, Bangladesh</p>
+    </div>
+  </div>
+  <div class="timelinecontainer right">
+    <div class="content">
+      <h2 class="degree">MA in Education</h2>
+      <p class="institute">Nottingham University</p>
+    </div>
+  </div>
+  <div class="timelinecontainer left">
+    <div class="content">
+      <h2 class="degree">BSc. (Hon's), 1st Class</h2>
+      <p class="institute">Department of Chemistry, University of Dhaka</p>
+    </div>
+  </div>
+  <div class="timelinecontainer right">
+    <div class="content">
+      <h2 class="degree">MS, 1st Class</h2>
+      <p class="institute">Department of Chemistry, University of Dhaka</p>
+    </div>
+  </div>
+</div>
+</div>
+<div class="gallery template clear" id="gallery">
+    
+  <div class="w3-content" style="background:#F4F6F7;max-width:1532px;">
+  <div class="w3-row-padding w3-padding-16">
+    <h2 style="color:red;font-weight:bold">Gallery</h2><br>
+    <div class="w3-third w3-margin-bottom">
+      <img src="photos/ph1.jpg" class="centerimg" alt="maks" style="width:75%">
+    </div>
+    <div class="w3-third w3-margin-bottom">
+      <img src="photos/ph2.jpg" class="centerimg" alt="maks" style="width:75%">
+    </div>
+    <div class="w3-third w3-margin-bottom">
+      <img src="photos/ph3.jpg" class="centerimg" alt="maks" style="width:75%">
+    </div>
+  </div>
+  <div class="w3-content" style="background:#F4F6F7;max-width:1532px;">
+  <div class="w3-row-padding w3-padding-16">
+    <div class="w3-third w3-margin-bottom">
+      <img src="photos/ph12.jpg" class="centerimg" alt="maks" style="width:75%">
+    </div>
+    <div class="w3-third w3-margin-bottom">
+      <img src="photos/ph13.jpg" class="centerimg" alt="maks" style="width:75%">
+    </div>
+    <div class="w3-third w3-margin-bottom">
+      <img src="photos/ph14.jpg" class="centerimg" alt="maks" style="width:75%;">
+    </div>
+  </div>
+  <div class="w3-content" style="background:#F4F6F7;max-width:1532px;">
+  <div class="w3-row-padding w3-padding-16">
+    <div class="w3-third w3-margin-bottom">
+      <img src="photos/ph4.jpg" class="centerimg" alt="maks" style="width:75%">
+    </div>
+    <div class="w3-third w3-margin-bottom">
+      <img src="photos/ph7.jpg" class="centerimg" alt="maks" style="width:75%">
+    </div>
+    <div class="w3-third w3-margin-bottom">
+      <img src="photos/ph6.jpg" class="centerimg" alt="maks" style="width:75%;">
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="footer template clear">
+    <center><p> &copy; All rights reserved by <span style="color:red">MAKS</span></p></center>
+    
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
